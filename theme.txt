@@ -11,8 +11,9 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + image {
-    left = 50%-66
-    top = 20%-50
+    left = 45%
+    top = 15%
+    width = 10%
     file = "archlinux.png"
 }
 
