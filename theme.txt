@@ -2,7 +2,7 @@
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#3d475d"
-terminal-font: "Unifont Regular 20"
+terminal-font: "Unifont Regular 28"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -11,23 +11,23 @@ terminal-border: "0"
 
 + boot_menu {
   left = 30%
-  top = 30%
+  top = 25%
   width = 40%
   height = 50%
-  item_font = "Unifont Regular 20"
+  align = "center"
+  item_font = "Unifont Regular 28"
   item_color = "#c0bfbc"
   selected_item_color = "#3584e4"
-  align = "center"
-  item_height = 20%
-  item_padding = 20%
-  item_spacing = 20%
+  item_height = 40%
+  item_padding = 10%
+  item_spacing = 15%
   selected_item_pixmap_style = "select_*.png"
 }
 
 + label {
-  top = 85%
+  top = 80%
   left = 35%
-  height = 20%
+  height = 10%
   width = 30%
   align = "center"
   id = "__timeout__"
