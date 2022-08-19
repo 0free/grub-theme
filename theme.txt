@@ -1,6 +1,5 @@
 
 desktop-color: "#000000"
-desktop-image: ""
 terminal-font: "Unicode Regular 16"
 terminal-left: "5%"
 terminal-top: "5%"
