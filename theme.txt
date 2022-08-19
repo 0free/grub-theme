@@ -1,0 +1,39 @@
+
+desktop-color: "#000000"
+desktop-image: ""
+terminal-font: "Unicode Regular 16"
+terminal-left: "5%"
+terminal-top: "5%"
+terminal-width: "90%"
+terminal-height: "90%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 30%
+  top = 25%
+  width = 40%
+  height = 50%
+  align = "center"
+  item_font = "Unicode Regular 16"
+  item_color = "#9a9996"
+  selected_item_font = "Unicode Regular 16"
+  selected_item_color = "#1a5fb4"
+  item_icon_space = 5%
+  icon_width = 5%
+  icon_height = 5%
+  item_height = 35%
+  item_padding = 5%
+  item_spacing = 15%
+}
+
++ label {
+  top = 80%
+  left = 35%
+  height = 15%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "booting in %d seconds"
+  color = "#a51d2d"
+  font = "Unicode Regular 16"
+}
