@@ -18,17 +18,17 @@ terminal-border: "0"
   selected_item_font = "Unicode Regular 16"
   selected_item_color = "#1a5fb4"
   item_icon_space = 5%
-  icon_width = 5%
-  icon_height = 5%
-  item_height = 35%
-  item_padding = 5%
-  item_spacing = 15%
+  icon_width = 10%
+  icon_height = 10%
+  item_height = 30%
+  item_padding = 3%
+  item_spacing = 10%
 }
 
 + label {
-  top = 80%
+  top = 85%
   left = 35%
-  height = 15%
+  height = 10%
   width = 30%
   align = "center"
   id = "__timeout__"
